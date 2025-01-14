@@ -26,6 +26,9 @@ fetch('https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v
         <td style="color:#000" >
         Rs. ${element.presentment_price}.00
         </td>
+        <td style="color:#B88E2F">
+        <i class="ai-trash-can"></i>
+        </td>
         
         </tr>
 
@@ -48,10 +51,11 @@ fetch('https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v
         <th>
             Total
         </th>
-        <td>
+        <td id="total">
         
         Rs. ${data.original_total_price}.00
         </td>
+        
         </tr>
 
         `
