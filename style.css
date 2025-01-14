@@ -102,25 +102,49 @@ header .logo img{
   height: 316px;
   background-position-y: center;
   background-size: cover;
-  filter: blur(2px);
-  opacity: 50%;
-  /* filter: opacity(50%); */
+  background: blur(2px);
+  opacity: 50%; 
+   /* filter: opacity(50%); */
 }
 
 .content img{
   position: relative;
-  width: 77px;
+  width: 50px;
   opacity: 100%;
   z-index: 5;
   margin: auto;
 }
-.content{
+
+.content h1{
+  font-weight: 400;
+  font-size:50px;
+}
+
+.content1
+{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+.content {
+  display: grid;
+  height: 100%;
   width: 100%;
   margin: auto;
   opacity: 100%;
   z-index: 1;
+  font-family: poppins;
+  
+
+}
+.content h1, .content p{
+  margin-inline:auto;
+
 }
 
+.cart{
+  font: poppin;
+}
 .footer{
   width: 100%;
   padding: 100px 0px;
