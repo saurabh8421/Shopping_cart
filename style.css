@@ -102,8 +102,9 @@ header .logo img{
   height: 316px;
   background-position-y: center;
   background-size: cover;
-  background: blur(2px);
-  opacity: 50%; 
+  backdrop-filter: blur(9px);
+
+  /* opacity: 50%;  */
    /* filter: opacity(50%); */
 }
 
@@ -134,7 +135,7 @@ header .logo img{
   opacity: 100%;
   z-index: 1;
   font-family: poppins;
-  
+  backdrop-filter: blur(3px);
 
 }
 .content h1, .content p{
@@ -159,7 +160,7 @@ header .logo img{
   height: 70px;
   display: flex;
   gap: 4px;
-  
+  align-items: center;
 }
 
 .footer h1{
@@ -235,6 +236,7 @@ header .logo img{
   width: 30px;
   border-radius: 4px;
   text-align: center;
+  align-content: center;
 }
 
 
